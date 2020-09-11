@@ -1,4 +1,4 @@
-# A script to keep your username in the king.txt and 
+# A script to keep your username in the king.txt
 # Authors : Cipher and p4p1
 
 NAME=Cipher007  #change this
