@@ -20,10 +20,10 @@ disown
 count=1
 
 while [ 1 ]; do
-	LOG=$(cat /home/cipher/Desktop/bash-scripts/king.txt)
+	LOG=$(cat /root/king.txt)
 	if [[ $LOG != $NAME ]]; then
 		echo "[*] modification observed."
-		echo $NAME > /home/cipher/Desktop/bash-scripts/king.txt #puts your username back into the file
+		echo $NAME > /root/king.txt #puts your username back into the file
 		echo "[+] got things fixed! nothing to worry about!"
 		let 'count+=1'
 	fi
