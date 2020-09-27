@@ -1,5 +1,5 @@
 # A script to get some shit done
-# Authors : Cipher and p4p1
+# Authors : Cipher 
 
 # Usage : 
 #        chmod +x <filename>
@@ -9,7 +9,7 @@
 #after the scipt changes the password, you can directly ssh into the box as root
 
 NAME=Cipher007  #change this
-PASS=yourmom!   #change this
+PASS=notcrackable!   #change this
 
 
 echo "[*]Changing password of root"
