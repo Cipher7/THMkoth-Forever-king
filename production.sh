@@ -1,6 +1,9 @@
 # A script to keep your username in the king.txt
 # Authors : Cipher and p4p1
 
+# Usage : 
+#        chmod +x <filename>
+#        sudo bash <filename>
 NAME=Cipher007  #change this
 PASS=seriously?   #change this
 IP=127.0.0.1    #change this
