@@ -21,7 +21,7 @@ while [ 1 ]; do
 done &
 disown
 
-echo "Donkey has access to the tar without password! Patch that to prevent him from doing any privesc!"
+echo "Donkey has access to tar without password! Patch that to prevent him from doing any privesc!"
 echo "Edit the /etc/sudoers file using vim!"
 
 echo "There is also a telnetd file in one of the users directory! Edit that to prevent people from leveraging a shell using that!"
