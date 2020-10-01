@@ -5,7 +5,7 @@
 
 
 NAME=Cipher007  #change this
-IP=10.10.10.10.    #change this
+IP=10.10.10.10.    #change this(tun0)
 PORT=4444       #change this
 
 echo "Created by Cipher007"
