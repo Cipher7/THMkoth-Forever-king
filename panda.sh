@@ -7,7 +7,7 @@ PASS=seriously!   #change this
 IP=10.10.10.10    #change this
 PORT=4444       #change this
 
-echo "Created by Cipher007!"
+echo "Created by Cipher007"
 echo "Discord:Cipher007#1099"
 
 echo ""
