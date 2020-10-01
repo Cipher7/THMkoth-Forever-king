@@ -38,7 +38,7 @@ echo ""
 #PATCHING
 echo "The file check.sh in tigress home folder can be used for privesc! Edit that !"
 echo "Patch the apache tomcat vuln in /opt/tomcat"
-echo "the user shifu has permission to run ftp as root without password! Change that permission to prevent the from doing a privesc."
+echo "The user shifu has permission to run ftp as root without password! Change that permission to prevent him from doing a privesc."
 
 echo "Start a listener on your machine with the above set port! This can act as an emergency backdoor incase someone decides to kick you out!"
 
