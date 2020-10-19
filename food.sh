@@ -5,7 +5,7 @@
 
 # Run this as root
 # Command: 
-#         sudo <script-file>
+#         sudo bash <script-file>
 
 NAME=Cipher007  #change this
 PASS=seriously!   #change this
