@@ -11,10 +11,14 @@
 NAME=Cipher007  #change this
 PASS=notcrackable!   #change this
 
-
+touch tmp
+echo $PASS > tmp
+echo $PASS >> tmp
 echo "[*]Changing password of root"
-echo $PASS | passwd $NEW      #changes the root password
+cat tmp | passwd                                         #changes the root password
+rm tmp
 echo "[+] Passowrd changed! LMAO"
+echo "The root password has been changed! You can directly ssh into root now!"
 
 count=1
 
