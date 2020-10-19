@@ -21,6 +21,7 @@ while [ 1 ]; do
 done &
 disown
 
+#PATCHING
 echo "Donkey has access to tar without password! Patch that to prevent him from doing any privesc!"
 echo "Edit the /etc/sudoers file using vim!"
 
@@ -29,6 +30,7 @@ count=1
 
 rm /home/shrek/.ssh/authorized_keys
 
+#FOREVER-KING
 while [ 1 ]; do
 	LOG=$(cat /root/king.txt)
 	if [[ $LOG != $NAME ]]; then
